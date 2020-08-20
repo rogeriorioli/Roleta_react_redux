@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 export default function Close() {
 
-    const  handleClose =() => window.top.spl.close();
+    const  handleClose =() => window.top.close();
   return (
     <Container>
         <button onClick={handleClose}>

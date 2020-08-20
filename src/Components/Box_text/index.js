@@ -34,9 +34,11 @@ const Boxtext = (activeState) => {
           </>
           : 
           <>
+
           <span className={`cuppon ${activeState.clase}`} onClick={setCopied}>
-              Clique aqui para copiar o cuppon {activeState.cuppon}
+              {isCopied ? `cuppon ${activeState.cuppon} copiado com sucesso` : `Clique aqui para copiar o cuppon ${activeState.cuppon}` }
           </span>
+          
           <button onClick={handleUtm} className={isCopied ? 'show' : `hide ${activeState.cuppon}`}>Continuar no site</button> 
           </>
          }
