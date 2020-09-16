@@ -10,7 +10,7 @@
     "react-scripts": "3.1.1",
     "react-use-clipboard": "0.2.0",
     "redux": "^4.0.4",
-    "styled-components": "^4.3.2",
+    "styled-components": "^4.4.1",
     "styled-icons": "^8.6.0"
   },
   "scripts": {
